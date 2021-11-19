@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve resources/js/app.js",
+    "build": "vue-cli-service build resources/js/app.js",
+    "dev": "npm run development",
+    "development": "mix",
+    "hot": "mix watch --hot",
+    "make:component": "vue-cli-service make:component",
+    "make:directive": "vue-cli-service make:directive",
+    "make:layout": "vue-cli-service make:layout",
+    "make:mixin": "vue-cli-service make:mixin",
+    "make:view": "vue-cli-service make:view",
+    "prod": "npm run production",
+    "production": "mix --production",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000"
+  },
+  "dependencies": {
+    "vue-router": "^3.5.3",
+    "vuetify": "^2.6.0"
+  },
+  "devDependencies": {
+    "axios": "^0.21",
+    "bootstrap": "^4.6.1",
+    "deepmerge": "^4.2.2",
+    "jquery": "^3.6.0",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "pluralize": "^8.0.0",
+    "popper.js": "^1.16.1",
+    "postcss": "^8.1.14",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "~1.32",
+    "sass-loader": "^11.1.1",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.7",
+    "vue-loader-v16": "^16.0.0-beta.5.4",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify-loader": "^1.7.0"
+  }
+}
